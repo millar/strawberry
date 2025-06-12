@@ -18,6 +18,7 @@ class StrawberryConfig:
     disable_field_suggestions: bool = False
     info_class: type[Info] = Info
     _unsafe_disable_same_type_validation: bool = False
+    enable_experimental_incremental_execution: bool = False
 
     def __post_init__(
         self,
