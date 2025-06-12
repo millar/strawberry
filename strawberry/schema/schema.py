@@ -36,10 +36,6 @@ from graphql import (
     parse,
     validate_schema,
 )
-<<<<<<< HEAD
-from graphql.execution import execute, subscribe
-=======
->>>>>>> 9f16353cc07de517c12ff5f9edfd0169a981edbc
 from graphql.execution.middleware import MiddlewareManager
 from graphql.type.directives import specified_directives
 from graphql.validation import validate
